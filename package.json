@@ -1,0 +1,25 @@
+{
+  "name": "hapi-auth-jwt2-single-use-links",
+  "version": "5.0.7",
+  "description": "A functional example Hapi.js app demonstrating hapi-auth-jwt2 authentication using Redis (hosted on Heroku) with tests!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "hapi.js",
+    "authentication",
+    "auth",
+    "example",
+    "hapi-auth-jwt2"
+  ],
+  "dependencies": {
+    "aguid": "^1.0.3",
+    "hapi": "^10.0.0",
+    "hapi-auth-jwt2": "^5.0.7",
+    "hapi-mailer": "^4.0.0",
+    "jsonwebtoken": "^5.0.4",
+    "redis-connection": "^1.0.3",
+    "redisclient": "0.0.8"
+  }
+}
